@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "appchat",
+    "slug": "appchat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyBdMczlDG1ME1Iw9sBrrtvj0IUn9xbNGi8",
+        "authDomain": "app-chat-a35c2.firebaseapp.com",
+        "databaseURL": "https://app-chat-a35c2.asia-southeast2.firebasedatabase.app",
+        "projectId": "app-chat-a35c2",
+        "storageBucket": "app-chat-a35c2.appspot.com"
+      }
+      
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appchat",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.253659412928-88dt3v8h323amcg5dte302pbljd355g9"
+        }
+    }
+  }, 
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.appchat",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

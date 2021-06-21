@@ -1,0 +1,3 @@
+# appchat
+#startapp 
+expo start
